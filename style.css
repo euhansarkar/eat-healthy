@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 60px;
+}
+
+#header{
+    display: flex;
+}
+
+.width-set{
+    width: 50%;
+}
+
+.width-set img{
+    width: 100%;
+}
+.spa{
+    color: tomato;
+}
+
+.skip{
+    margin-top: 8%;
+    margin-left: 4%;
+}
+
+.skip h1{
+    color: rgba(0, 0, 0, 0.689);
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+.skip h3{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.387);
+
+}
+
+.hero{
+    margin-top: -40px;
+    margin-left: -1%;
+    width: 60%;
+}
+
+.order-button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px 40px;
+    background-image: linear-gradient(rgba(255, 99, 71, 0.466), rgba(255, 0, 0, 0.619));
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+#about{
+    display: flex;
+    padding-left: 15%;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.me img{
+    height: 500px;
+    width: 330px;
+}
+
+.aboutMe{
+    margin-top: 8%;
+    margin-left: -10%;
+}
+
+.aboutMe h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 900px;
+    color: rgba(0, 0, 0, 0.657);
+}
+
+.aboutMe p{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 46px;
+}
